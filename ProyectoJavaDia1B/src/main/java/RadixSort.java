@@ -4,7 +4,11 @@ import java.util.HashMap;
 public class RadixSort {
         public static void radixSort(int []arr)
         {
-            //Implementación
+            String[] res = {"10", "20"};
+            int[] res2 = StringUtil.toIntArray(res);
+            for(int r:res2) {
+                System.out.println(r);
+            }
         }
         public static void main(String[] args)
         {
